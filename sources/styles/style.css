@@ -387,5 +387,29 @@ h1 {
 
 
 
-/* font-family: 'Oxanium', cursive;
-font-family: 'Bungee Shade', cursive; */
+
+
+
+/* responsive */
+
+
+@media (min-width:1600px) {
+
+    .container-3d {
+        transform: scale(1.3);
+    }
+
+    h1,
+    .description {
+        transform: scale(1.5);
+        left: 125px;
+    }
+
+    h1 {
+        top: 60px;
+    }
+
+    .description {
+        top: 130px;
+    }
+}

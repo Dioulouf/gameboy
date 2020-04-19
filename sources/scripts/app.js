@@ -29,7 +29,7 @@ var firstOn = false
 
 function keyRightDown() {
     console.log("right");
-    crossRight.style.boxShadow = "0 4px 3px 1px #FCFCFC"
+    // crossRight.style.boxShadow = "0 4px 3px 1px #FCFCFC"
 }
 
 function keyTopDown() {
