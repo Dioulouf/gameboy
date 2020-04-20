@@ -23,8 +23,6 @@ var biteBool = false
 
 var firstOn = false
 
-
-
 // ********************************************** functions
 
 function keyRightDown() {
