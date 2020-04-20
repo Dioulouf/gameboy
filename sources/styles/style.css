@@ -3,23 +3,30 @@ body {
     font-family: 'Oxanium', cursive;
 }
 
+.description {
+    border: 2px solid white;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
 h1 {
     font-family: 'Bungee Shade', cursive;
-    position: absolute;
     font-size: 50px;
     color: white;
-    left: 30px;
-    top: 30px;
 }
 
-.description {
-
-    position: absolute;
+.description--start {
     color: white;
-    top: 105px;
-    left: 30px;
     font-size: 22px;
 }
+
 
 .container-main {
     height: 100vh;
@@ -393,23 +400,19 @@ h1 {
 /* responsive */
 
 
-@media (min-width:1600px) {
+@media (min-width:1620px) {
 
     .container-3d {
         transform: scale(1.3);
     }
 
+    .description {
+        height: 270px;
+        width: 500px;
+    }
+
     h1,
-    .description {
+    .description--start {
         transform: scale(1.5);
-        left: 125px;
-    }
-
-    h1 {
-        top: 60px;
-    }
-
-    .description {
-        top: 130px;
     }
 }
